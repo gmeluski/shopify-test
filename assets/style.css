@@ -1,0 +1,71 @@
+/**** global css ****/
+
+body{font-family:Arial, Helvetica, sans-serif;}
+a {text-decoration:none; color:#5fa6d8;}
+a:hover{color:#84ddf2;}
+p{line-height:1.45em;}
+
+/**** product-loop.liquid ****/
+.product{margin:0 20px 30px 0; width:225px; text-align:center; font-weight:bold;}
+.product-thumb{border:1px solid #ccc; padding:10px;}
+.product-thumb img{max-width:100%; height: auto;}
+.product-title{ margin-top:10px;}
+.product-price{font-size:14px;}
+
+.left{float: left;}
+.right{float: right;}
+.last{margin-right:0px !important;}
+
+.btn{background: #2c2b2b; border: none !important; display:inline-block; color:#fff; padding:9px 13px; text-transform: uppercase;font-size:0.8em; font-weight: bold; 	border-radius: 8px;}
+.btn:hover{background:#585656; color:#fff;}
+
+/* Contain floats: nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+
+/**** theme.liquid ****/
+
+.container{width: 960px; margin: 0 auto;}
+.header-toolbar{background:#000; color: #fff; font-size:12px; padding:10px 0;}
+
+.logo{font-size: 60px; margin:40px 0; text-align:center;}
+.logo a{color: #000;}
+
+.main-menu{text-align: center; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc;}
+.main-menu li{display: inline-block; padding:0px 20px;}
+.main-menu a{ color: #4e4e4e; font-weight:bold;}
+.main-menu a:hover, .main-menu .current a{color:#989898;}
+
+.content{padding:30px 0;}
+
+footer{text-align:center; font-size: 12px; border-top: 1px solid #ccc; margin-bottom:150px;}
+footer ul{padding:10px 0;}
+footer li{display:inline-block;}
+footer li a{padding:0 20px; color: #989898;}
+
+/**** collection.liquid ****/
+
+.pagination{text-align:center; border-top:1px solid #ccc; padding-top: 30px; margin-top: 30px;}
+
+/**** rte content  ****/
+.rte blockquote{ font-style:italic; border-left:3px solid #ddd; padding-left:10px; margin-left:0px;}
+.rte td{border:1px solid #ccc; padding:5px;}
+
+/**** product.liquid ****/
+.product-images{width:406px;}
+.product-images{margin-right:30px;}
+.product-images img{max-width: 100%; height: auto;}
+.product-featured-image{border: 1px solid #ccc; padding:10px; margin-bottom:20px;}
+.product-img{border: 1px solid #ccc; text-align:center; padding:10px; margin: 0 20px 20px 0; width:100px;}
+
+.product-details{width: 524px;}
+.product-header{margin-top:0px;}
+.product-desc, .price-field, .product-form{margin-bottom:30px;}
+.price-field{font-weight:bold;}
+.product-form{text-align: right;}
+.selector-wrapper{padding:10px 0; border-bottom:1px solid #ccc;}
+.selector-wrapper label, .selector-wrapper select{display: inline-block;}
+.selector-wrapper label{float:left;}
+.selector-wrapper select{float:right;}
+.product-variants{margin-bottom:10px;}
